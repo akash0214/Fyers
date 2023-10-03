@@ -14,10 +14,10 @@ client_id = credObject["client_id"]
 fyers = fyersModel.FyersModel(client_id=client_id, token=access_token, is_async=False, log_path="")
 data = {
     "symbol":"NSE:SBIN-EQ",
-    "resolution":"D",
+    "resolution":"15",
     "date_format":"1",
-    "range_from":"2023-09-22",
-    "range_to":"2023-09-29",
+    "range_from":"2023-10-03",
+    "range_to":"2023-10-03",
     "cont_flag":"1"
 }
 data = fyers.history(data=data)
