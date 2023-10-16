@@ -13,7 +13,7 @@ client_id = credObject["client_id"]
 
 fyers = fyersModel.FyersModel(client_id=client_id, token=access_token, is_async=False, log_path="")
 data = {
-    "symbol":"NSE:SBIN-EQ",
+    "symbol":"NSE:ONGC-EQ",
     "resolution":"D",
     "date_format":"1",
     "range_from":"2023-09-03",
