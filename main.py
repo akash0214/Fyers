@@ -1,6 +1,7 @@
 from fyers_apiv3 import fyersModel
 import json
 
+#loading json
 apiCredFile = open("./apiCred.json")
 apiCredJson = json.load(apiCredFile)
 
