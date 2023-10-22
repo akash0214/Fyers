@@ -23,7 +23,7 @@ auth_code = input("Enter auth code: ")
 session.set_token(auth_code)
 token_response = session.generate_token()
 
-#Serializing json
+#Serializing json for saving into new file
 token_response_object = json.dumps(token_response, indent=4)
 
 with open('access_token.json', "w") as token:
