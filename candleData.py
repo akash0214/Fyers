@@ -1,7 +1,7 @@
 from fyers_apiv3 import fyersModel
 import json
 
-#Extracting token
+#Extracting token from json file
 tokenFile = open('./access_token.json')
 tokenObject = json.load(tokenFile)
 access_token = tokenObject["access_token"]
