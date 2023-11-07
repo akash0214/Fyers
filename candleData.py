@@ -16,8 +16,8 @@ data = {
     "symbol":"NSE:ONGC-EQ",
     "resolution":"D",
     "date_format":"1",
-    "range_from":"2023-09-03",
-    "range_to":"2023-10-03",
+    "range_from":"2023-11-07",
+    "range_to":"2023-11-07",
     "cont_flag":"1"
 }
 data = fyers.history(data=data)
